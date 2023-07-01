@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#background {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("header.jpg");
+
+  background-size: cover;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+}
+
+.head img {
+  padding-left: 120px;
+  height: 50px;
+  width: 150px;
+  padding-top: 30px;
+}
+
+.head select {
+  margin-top: 35px;
+  margin-right: 100px;
+}
+
+.head button {
+  margin-left: -66px;
+  height: 32px;
+  width: 80px;
+  margin-top: 35px;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+  /* font-weight: 700px; */
+}
+
+.head button a {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.head select {
+  margin-left: 650px;
+  height: 32px;
+  width: 110px;
+  margin-top: 35px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#heading {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 218px;
+}
+
+.tagline {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+#mail {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#mail input {
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: 0.5px solid white;
+  background-color: rgba(0, 0, 0, 0.119);
+  color: white;
+}
+
+#mail button a {
+  /* background-color: white; */
+  /* padding: 10px; */
+  border: 30px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#mail button {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.line {
+  height: 7px;
+  background-color: rgba(0, 0, 0, 0.831);
+}
+
+.Sec1 {
+  display: flex;
+  height: 400px;
+  background-color: black;
+  color: white;
+  gap: 120px;
+}
+
+.left1 {
+  margin-left: 150px;
+  font-size: 20px;
+  width: 350px;
+  margin-top: 100px;
+  font-family: Helvetica, sans-serif;
+}
+
+.left1 h1 {
+  line-height: 80px;
+  font-weight: 700;
+}
+
+.sec2 {
+  display: flex;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* .left2 {
+} */
+
+.right2 h1 {
+  width: 300px;
+  margin-top: 70px;
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.right2 p {
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+  width: 450px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.rtw {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+#mail2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#mail2 input {
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: 0.5px solid white;
+  background-color: rgba(0, 0, 0, 0.119);
+  color: white;
+}
+
+#mail2 button a {
+  /* background-color: white; */
+  /* padding: 10px; */
+  border: 30px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#mail2 button {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.faq {
+  height: 800px;
+  background-color: black;
+  color: white;
+}
+
+.faq h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.accordion {
+  margin: 60px auto;
+  width: 800px;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.accordion li {
+  list-style: none;
+  /* width: 100%; */
+  /* margin: 20px; */
+  /* padding: 2px; */
+  border-radius: 2px;
+  /* border: 2px solid rgba(255, 255, 255, 0.619); */
+  background-color: rgba(128, 128, 128, 0.249);
+  width: 100%;
+}
+
+.accordion li label {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Helvetica, sans-serif;
+  border: 1px solid gray;
+}
+
+label::before {
+  content: "+";
+  
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  /* padding: 10px; */
+  transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+  max-height: 800px;
+  padding: 20px;
+}
+
+.accordion input[type="radio"]:checked + label::before {
+  content: "-";
+}
+
+.accordion li label:hover{
+  background-color: rgba(128, 128, 128, 0.635);
+}
+
+.rtw {
+  height: 200px;
+  background-color: black;
+}
+
+#footer{
+  height: 500px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.621);
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+
+
+}
+#Ques{
+    padding-top: 70px;
+    padding-left: 150px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+#Ques a{
+  color: rgba(255, 255, 255, 0.621);
+}
+
+.list a{
+  color: rgba(255, 255, 255, 0.621);
+}
+
+.list{
+  display: flex;
+  gap: 200px;
+  margin-left: 150px;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+#sel1{
+  margin-left: 150px;
+  height: 32px;
+  width: 110px;
+  margin-top: 35px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.lastline{
+  margin-left: 150px;
+  margin-top: 20px;
+}
